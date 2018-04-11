@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main_Page.master.cs" Inherits="Main_Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="icon" type="image/gif" href="\images\telescope.png" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="\css\Main_page.css" />
+
+    <title>Telescope Collection</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form" runat="server">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="head">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div class="span6">
+                                    <br />
+                                    <div class="span4 offset2" style="margin-top: 15px;">
+                                        <h1>
+                                            <asp:Label class="btn pull-right" ID="lblUserWelcome" runat="server"></asp:Label></h1>
+                                        <asp:Button class="btn pull-right" ID="btnSignIn" runat="server" Text="Sign in" OnClick="btnSignIn_Click"></asp:Button>
+                                    </div>
+                                    <h1 class="muted">My Telescope</h1>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="navbar">
+                            <div class="navbar-inner">
+                                <div class="container">
+                                    <ul class="nav">
+                                        <li>
+                                            <a href="Product_List.aspx">Explore Product</a>
+                                        </li>
+                                        <li>
+                                            <a href="Gallery.aspx">Gallery</a>
+                                        </li>
+                                        <li>
+                                            <a href="Contact.aspx">Contact Us</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <asp:ContentPlaceHolder ID="maincnt" runat="server">
+    </asp:ContentPlaceHolder>
+    <footer style="margin-top: 200px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="menu">
+                        <span>Menu</span>
+                        <li>
+                            <a href="Home.aspx">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="Gallery.aspx">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="menu">
+                        <span>Contact</span>
+                        <li>
+                            <a href="#">Phone</a>
+                        </li>
+                        <li>
+                            <a href="#">Email</a>
+                        </li>
+                        <li>
+                            <a href="contact.aspx">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="adress">
+                        <span>Address</span>
+                        <li>
+                            <p>Azrieli Center, Tel Aviv</p>
+                        </li>
+
+                        <li>
+                            <p>054-9742741</p>
+                        </li>
+                        <li>
+                            <p>info@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,257 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&subset=latin-ext,vietnamese');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 30px;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.price {
+    font-size: 30px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.thumbnail {
+    opacity: 0.70;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.thumbnail:hover {
+        opacity: 1.00;
+        box-shadow: 0px 0px 10px #4bc6ff;
+    }
+
+.line {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 770px) {
+    .right {
+        float: left;
+        width: 100%;
+    }
+}
+
+span.thumbnail {
+    height:100%;
+    border: 1px solid #00c4ff !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.16);
+    padding: 10px;
+}
+
+.container h4 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 6px;
+}
+
+.right {
+    float: right;
+    border-bottom: 2px solid #0a5971;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #19b4e2;
+    border-color: #19b4e2;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.rowproduct{
+    bottom:10px;
+    position:absolute;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+.product-inner {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+.product img {
+    margin-bottom: 10px;
+}
+.filter-make filter form-control{
+    height: 100%;
+    width:100%;
+}
+#maincnt2_pr_search.filter-make.form-control-lg {
+    width: 100%;
+}
+#msg2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Happy Monkey', cursive;
+    color: red;
+}
+
+
+
+
+
+#enquirypopup .modal-dialog {
+    width: 100%;
+    padding: 0px;
+    position: relative;
+}
+
+#enquirypopup .modal-dialog {
+    width: 400px;
+    padding: 0px;
+    position: relative;
+}
+
+    #enquirypopup .modal-dialog:before {
+        content: '';
+        height: 0px;
+        width: 0px;
+        /*border-left: 50px solid #17B6BB;*/
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid transparent;
+        position: absolute;
+        top: 1px;
+        left: -14px;
+        z-index: 99;
+    }
+
+/*.custom-modal-header {
+    text-align: center;
+    color: #17b6bb;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-top: 4px solid;
+}*/
+
+#enquirypopup .modal-dialog .close {
+    z-index: 99999999;
+    color: black;
+    text-shadow: 0px 0px 0px;
+    font-weight: bold;
+    top: 3px;
+    right: 10px;
+    position: absolute;
+    opacity: 1;
+}
+
+.custom-modal-header .modal-title {
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+
+#enquirypopup .modal-dialog:after {
+    content: '';
+    height: 0px;
+    width: 0px;
+    /* border-right: 50px solid rgba(255, 0, 0, 0.98); */
+    /*border-right: 50px solid #17b6bb;*/
+    border-bottom: 50px solid transparent;
+    position: absolute;
+    top: 1px;
+    right: -14px;
+    z-index: 999999;
+}
+
+.form-group {
+    margin-bottom: 15px !important;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 768px) {
+    .omb_forgotPwd {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
+
+.omb_login a:hover {
+    color: white;
+    opacity: 1;
+}
+
+.omb_login .omb_btn-facebook {
+    background: #3b5998;
+    color: white;
+    opacity: 0.9;
+}
+
+.omb_login .omb_btn-twitter {
+    background: #00aced;
+    color: white;
+    opacity: 0.9;
+}
+
+.omb_login .omb_btn-google {
+    background: #c32f10;
+    color: white;
+    opacity: 0.9;
+}
+
+.omb_spanOr {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -0.6em;
+    margin-left: -1.5em;
+    background-color: white;
+    width: 3em;
+    text-align: center;
+}
+
+.omb_loginOr .omb_hrOr {
+    position: relative;
+    font-size: 1.5em;
+    color: #aaa;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: white;
+}
+
+#inputusername.form-control {
+    width: 100%;
+}
+
+
+
+

@@ -1,0 +1,68 @@
+﻿@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:400,700';
+
+html,
+body {
+    /*background: #D9B280;*/
+    font-family: "Libre Franklin", sans-serif;
+}
+
+.con {
+    background: #FFFFFF;
+    width: 900px;
+    height: 650px;
+    margin: 5% auto;
+    position: relative;
+}
+
+    .con .map {
+        width: 45%;
+        float: left;
+    }
+
+    .con .contact-form {
+        width: 53%;
+        margin-left: 2%;
+        float: left;
+    }
+
+        .con .contact-form .title {
+            font-size: 2.5em;
+            font-family: "Libre Franklin", sans-serif;
+            font-weight: 700;
+            color: #242424;
+            margin: 5% 8%;
+        }
+
+        .con .contact-form .subtitle {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin: 0 4% 5% 8%;
+        }
+
+        .con .contact-form input,
+        .con .contact-form textarea {
+            width: 330px;
+            padding: 3%;
+            margin: 2% 8%;
+            color: #242424;
+            border: 1px solid #B7B7B7;
+        }
+
+            .con .contact-form input::placeholder,
+            .con .contact-form textarea::placeholder {
+                color: #242424;
+            }
+
+        .con .contact-form .btn-send {
+            background: #A383C9;
+            width: 180px;
+            height: 60px;
+            color: #FFFFFF;
+            font-weight: 700;
+            margin: 2% 8%;
+            border: none;
+        }
+.subtitle {
+    font-family: 'Lobster', cursive;
+}
+
